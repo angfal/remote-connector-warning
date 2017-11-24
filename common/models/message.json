@@ -1,0 +1,12 @@
+{
+  "name": "Message",
+  "base": "Model",
+  "properties": {},
+  "relations": {
+    "owner": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "ownerId"
+    }
+  }
+}
